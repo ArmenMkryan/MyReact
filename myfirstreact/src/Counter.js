@@ -39,13 +39,13 @@ function Counter() {
             React Counter
         </h1>
         
-        <button  onClick={incremCount}>
+        <button className='yello' onClick={incremCount}>
             +
         </button>
-        <button class="btn1"  onClick={() => setValue(0)}>
+        <button class="btn1" className='yello' onClick={() => setValue(0)}>
             RESET
         </button>
-        <button  onClick={decremCount}>
+        <button className='yello' onClick={decremCount}>
             -
         </button>
        <p>{value}<span>{prodText}</span></p> 
